@@ -1,0 +1,256 @@
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.Main-event{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.part-1{
+    margin-right: 10px;
+    
+    transition: 0.5s;
+}
+.part-1:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.part-2{
+    text-align: start;
+}
+.huge-header{
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: 10px;
+    line-height: 0.9;
+}
+.description1{
+    font-weight: 300;
+}
+.link-off{
+    text-decoration: none;
+    color: black;
+}
+.ab-link{
+    text-decoration: none; 
+    color: gray;
+    transition: 0.5s;
+}
+.ab-link:hover{
+    font-size: 160%;
+    transition: 0.5s;
+    color: black;
+}
+.content-1-1{
+    border-top: 1px solid black;
+}
+.img-box{
+    width: 200px;
+    height: 200px;
+    overflow:hidden;
+}
+.item{
+    margin-top: 30px;
+    max-width: 200px;
+}
+.item1{
+    max-width: 200px;
+    margin-bottom: 30px;
+}
+.img-box img{
+    transition: 1.5s;
+}
+.img-box img:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.i-link{
+    text-decoration: none;
+    color: black;
+    transition: 1.5s;
+}
+.i-link:hover{
+    font-size: 150%;
+    transition: 0.5s;
+}
+.section-item{
+    width: 200px;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.section-item:hover{
+    font-size: 150%;
+    height: 50px;
+    background-color: firebrick
+}
+.section-item h3{
+    margin-top: 8px;
+    color: black;
+}
+.section a{
+    text-decoration: none;
+}
+.section{
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+.active{
+    background-color: black;
+}
+.active h3{
+    color: white;
+}
+.date{
+    width: 18%;
+}
+
+.tab{
+    flex-wrap: wrap;
+    width: 80%;
+}
+.tab-element{
+    width: 460px;
+    height: 400px;
+    margin-bottom: 30px;
+}
+.element-img{
+    width: 460px;
+    height: 260px;
+    overflow:hidden;
+}
+.element-img img{
+    width: 460px;
+    height: 260px;
+    overflow:hidden;
+}
+.gallery-element{
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+.a-a-a{
+    margin-top: 0;
+}
+#B20{
+    background-color: black;
+}
+#E20{
+    background-color: black;
+}
+#animation{
+    animation: fadein .8s;
+}
+#A2020{
+    animation: fadein .8s;
+}
+#A2019{
+    display: none;
+    animation: fadein .8s;
+}
+#A2018{
+    display: none;
+    animation: fadein .8s;
+}
+#E2020{
+    animation: fadein .8s;
+}
+#E2019{
+    display: none;
+    animation: fadein .8s;
+}
+#E2018{
+    display: none;
+    animation: fadein .8s;
+}
+
+#S2020{
+    animation: fadein .8s;
+}
+#S2019{
+    display: none;
+    animation: fadein .8s;
+}
+.name{
+    width: 500px;
+    height: 35px;
+    font-size:20px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .part-1 img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    
+    #log{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Main-event{
+        flex-direction: column!important;
+    }
+    .container-2-2{
+        flex-direction: column!important;
+        align-items: center;
+    }
+    .container-3-3{
+        flex-direction: column!important;
+        align-items: center;
+    }
+    .date{
+        width: 100%;
+    }
+    .tab{
+        width: 100%;
+    }
+    .date-btn{
+        width: 100%!important;
+    }
+    .name{
+        width: 99%;
+    }
+    .tab form{
+        width: 100%;
+    }
+    #regf{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+    .element-img{
+        width: 100%;
+        height: auto;
+    }
+    .element-img img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
